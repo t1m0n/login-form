@@ -70,6 +70,7 @@ export const StyledLogoImg = styled.img`
 export const StyledLogoName = styled.span`
   font-family: 'Pacifico', cursive;
   font-weight: 400;
+  line-height: 1.5;
   font-size: 24px;
   font-style: normal;
 
