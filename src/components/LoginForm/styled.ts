@@ -13,6 +13,10 @@ export const StyledLoginFormWrap = styled.div`
   flex-direction: column;
   align-items: center;
   grid-row-gap: ${spacing(6)};
+
+  ${onMobile(css`
+    width: 100%;
+  `)}
 `;
 
 export const StyledLoginForm = styled(Panel)`
@@ -38,6 +42,7 @@ export const StyledLoginForm = styled(Panel)`
 
   ${onMobile(css`
     width: 100%;
+    border-radius: 12px 12px 0 0;
   `)}
 `;
 
