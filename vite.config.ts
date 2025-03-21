@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react-swc';
 // eslint-disable-next-line import/no-default-export
 export default defineConfig({
   plugins: [react()],
+  base: 'login-form',
   resolve: {
     alias: {
       ':ui': path.resolve(__dirname, './src/ui'),
