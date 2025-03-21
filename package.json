@@ -10,7 +10,8 @@
     "lint": "eslint ./src --cache",
     "preview": "vite preview",
     "ts:check": "tsc --project ./tsconfig.app.json",
-    "precommit": "npx lint-staged"
+    "precommit": "npx lint-staged",
+    "prepare": "node .husky/install.mjs"
   },
   "dependencies": {
     "react": "^19.0.0",
